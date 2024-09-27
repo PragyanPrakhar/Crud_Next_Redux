@@ -1,0 +1,168 @@
+.mainContainer{
+    .create {
+        height: 35vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .input-field {
+            border-radius:5px;
+            height: 36px;
+            width:40%;
+        }
+        .submit-btn{
+            border-radius: 15px;
+            margin: 12px;
+            height: 36px;
+            width: 10%;
+            background-color: #f5f5f5;
+            border: 1px solid #f5f5f5;
+            color: #000;
+            cursor: pointer;
+        }
+    }
+    .show{
+        margin-top: 0;
+        margin-left: 40%;
+    }
+    .edit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #090909, #050505);
+        padding: 2rem;
+      
+        .input-field {
+          width: 100%;
+          max-width: 400px;
+          padding: 12px;
+          margin-bottom: 1.5rem;
+          border: none;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          font-size: 1.1rem;
+          transition: all 0.3s ease;
+          background: #0f0f0f;
+      
+          &:focus {
+            outline: none;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+          }
+        }
+      
+        .submit-btn {
+          padding: 12px 20px;
+          border: none;
+          border-radius: 50px;
+          background: linear-gradient(135deg, #4caf50, #81c784);
+          color: white;
+          font-size: 1.2rem;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          margin-bottom: 1rem;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      
+          &:hover {
+            background: linear-gradient(135deg, #388e3c, #66bb6a);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+          }
+      
+          &:active {
+            transform: scale(0.98);
+          }
+        }
+      
+        a {
+          font-size: 1rem;
+          color: #616161;
+          text-decoration: none;
+          transition: color 0.3s ease;
+      
+          &:hover {
+            color: #388e3c;
+          }
+        }
+      }
+      .show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         margin-left: auto;
+        
+        // padding: 2rem;
+        color: #fff;
+        min-height: 100vh;
+      }
+      .note {
+        background-color: #1a1a1a; // Dark gray background for the note
+        border: 1px solid #333; 
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        max-width: 500px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      
+        // Adding a subtle hover effect
+        &:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+        }
+      
+        // Text within each note
+        p {
+          font-size: 1.1rem;
+          line-height: 1.6;
+          margin-bottom: 1rem;
+          color: #fff;
+        }
+      
+        // Styling for buttons (edit & delete)
+        .edit-btn, .delete-btn {
+          border: none;
+          padding: 10px 15px;
+          margin-right: 10px;
+          border-radius: 5px;
+          font-size: 1rem;
+          cursor: pointer;
+          transition: background-color 0.3s ease, box-shadow 0.3s ease;
+          box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+      
+        // Edit button styles
+        .edit-btn {
+          background-color: #4caf50; // Green for Edit button
+          color: white;
+      
+          &:hover {
+            background-color: #388e3c; // Darker green on hover
+            box-shadow: 0 6px 12px rgba(0, 255, 0, 0.2);
+          }
+      
+          &:active {
+            transform: scale(0.95);
+          }
+        }
+      
+        // Delete button styles
+        .delete-btn {
+          background-color: #f44336; // Red for Delete button
+          color: white;
+      
+          &:hover {
+            background-color: #d32f2f; // Darker red on hover
+            box-shadow: 0 6px 12px rgba(255, 0, 0, 0.2);
+          }
+      
+          &:active {
+            transform: scale(0.95);
+          }
+        }
+      }
+      
+      
+}

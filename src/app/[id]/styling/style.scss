@@ -1,0 +1,62 @@
+.edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #090909, #050505);
+    padding: 2rem;
+  
+    .input-field {
+      width: 100%;
+      max-width: 400px;
+      padding: 12px;
+      margin-bottom: 1.5rem;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      background: #0f0f0f;
+  
+      &:focus {
+        outline: none;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+    }
+  
+    .submit-btn {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 50px;
+      background: linear-gradient(135deg, #4caf50, #81c784);
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+      &:hover {
+        background: linear-gradient(135deg, #388e3c, #66bb6a);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      }
+  
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  
+    a {
+      font-size: 1rem;
+      color: #616161;
+      text-decoration: none;
+      transition: color 0.3s ease;
+  
+      &:hover {
+        color: #388e3c;
+      }
+    }
+  }
+  
