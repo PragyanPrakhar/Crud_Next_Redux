@@ -1,4 +1,4 @@
-"use client"; //Always On Top
+"use client";
 import Create from "./components/Create";
 import Show from "./components/Show";
 import "./stylings/main.scss";

@@ -13,8 +13,6 @@ const dataSlice = createSlice({
         },
         removeData: (state, action) => {
             return state.filter((note) => note.id !== action.payload);
-            /* Before: action.payload assumes that the payload contains just the id.
-After: action.payload.id assumes that the payload is an object containing the id property. */
         },
         editData: (state, action) => {
             const index = state.findIndex(

@@ -97,7 +97,7 @@
         min-height: 100vh;
       }
       .note {
-        background-color: #1a1a1a; // Dark gray background for the note
+        background-color: #1a1a1a; 
         border: 1px solid #333; 
         border-radius: 10px;
         padding: 1.5rem;
@@ -107,21 +107,16 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
       
-        // Adding a subtle hover effect
         &:hover {
           transform: translateY(-10px);
           box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
         }
-      
-        // Text within each note
         p {
           font-size: 1.1rem;
           line-height: 1.6;
           margin-bottom: 1rem;
           color: #fff;
         }
-      
-        // Styling for buttons (edit & delete)
         .edit-btn, .delete-btn {
           border: none;
           padding: 10px 15px;
@@ -133,13 +128,11 @@
           box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
         }
       
-        // Edit button styles
         .edit-btn {
-          background-color: #4caf50; // Green for Edit button
-          color: white;
+          background-color: #4caf50; 
       
           &:hover {
-            background-color: #388e3c; // Darker green on hover
+            background-color: #388e3c;
             box-shadow: 0 6px 12px rgba(0, 255, 0, 0.2);
           }
       
@@ -148,13 +141,12 @@
           }
         }
       
-        // Delete button styles
         .delete-btn {
-          background-color: #f44336; // Red for Delete button
+          background-color: #f44336; 
           color: white;
       
           &:hover {
-            background-color: #d32f2f; // Darker red on hover
+            background-color: #d32f2f;
             box-shadow: 0 6px 12px rgba(255, 0, 0, 0.2);
           }
       
